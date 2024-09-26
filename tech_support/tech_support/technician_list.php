@@ -1,7 +1,7 @@
 <?php
 include('db_connect.php');
 
-// Fetch all technicians from the database
+// getting all technicians from the database
 $query = "SELECT * FROM technicians";
 $result = $conn->query($query);
 ?>
